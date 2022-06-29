@@ -1,0 +1,156 @@
+/* font face */
+@font-face {
+  font-family: futura;
+  src: url(Futura-Book-font.ttf);
+}
+
+@font-face {
+  font-family: AmazinglyBeauytiful;
+  src: url(amazingly.ttf);
+}
+
+@font-face {
+  font-family: Bongkar;
+  src: url(Bongkar.ttf);
+}
+
+/* who style */
+.who {
+  margin-top: 100px;
+}
+who section .who h1.header-1,
+.who h1.header-2 {
+  font-family: "Anek Latin", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+.who h1 span,
+.passion .header-1-passion span {
+  font-family: "Fascinate Inline", cursive;
+  font-size: 4.5rem;
+  color: rgb(0, 192, 255);
+}
+
+.who .container .row .header-1,
+.passion .header-1-passion,
+.project .header-1-project {
+  font-family: futura;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.who h1.h2 {
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#333, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.who .about-text {
+  display: block;
+  margin-top: 5%;
+  word-spacing: 0.1rem;
+  font-size: 1.2rem;
+  font-family: "Anek Latin", sans-serif;
+  font-weight: bolder;
+  color: #7a7456;
+}
+
+.img-about {
+  /* border-radius: 50%; */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  margin-top: 4%;
+}
+
+/* passion style */
+.passion .header-1-passion span {
+  font-family: "Fascinate Inline", cursive;
+  font-size: 4.5rem;
+  margin-right: 15px;
+}
+
+.passion .row i {
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 8rem;
+  color: rgba(0, 192, 255, 0.5);
+  text-shadow: 5px 5px 2px rgba(66, 24, 184, 0.5);
+}
+
+.passion h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: "Anek Latin", sans-serif;
+  font-size: 2.5rem;
+}
+
+.passion .row .card {
+  border: none;
+}
+
+.card-body > p {
+  font-size: 1rem;
+  font-family: "Anek Latin", sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  font-weight: 450;
+}
+
+.passion .passion-card {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/* project */
+.project {
+  background-image: linear-gradient(to bottom right, #5761b2, #1fc5a8);
+  /* box-shadow: 1px 1px 100px #5761b2; */
+}
+
+.project h1 {
+  color: white;
+}
+
+.project .header-1-project span {
+  font-family: "Fascinate Inline", cursive;
+  font-size: 4.5rem;
+  margin-right: 15px;
+  color: rgb(0, 192, 255);
+}
+
+.project .card {
+  margin-bottom: 20px;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 552px) {
+  /* who responsive */
+  .who .row {
+    margin-top: -40px;
+  }
+  .who h1 {
+    text-align: center;
+  }
+
+  /* passion responsive */
+
+  .passion h1 {
+    text-align: center;
+  }
+
+  .passion .row i {
+    margin-left: 105px;
+  }
+
+  /* project responsive */
+  .project .header-1-project {
+    text-align: center;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}

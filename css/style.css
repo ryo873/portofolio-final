@@ -1,0 +1,229 @@
+/* font face */
+@font-face {
+  font-family: AmazinglyBeauytiful;
+  src: url(amazingly.ttf);
+}
+
+@font-face {
+  font-family: Bongkar;
+  src: url(Bongkar.ttf);
+}
+
+/* navbar */
+.nav-logo {
+  font-family: "Bree Serif", serif;
+  text-shadow: 1px 1px 1px rgb(176, 176, 255);
+}
+
+.header-nav {
+  margin-top: -5px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* heroes */
+.main-about {
+  margin-top: 72px;
+  background-color: white;
+}
+
+.about-name h1 {
+  font-size: 5rem;
+  font-family: AmazinglyBeauytiful, serif;
+  font-weight: bolder;
+  padding-top: 100px;
+  letter-spacing: 0.8rem;
+  color: skyblue;
+}
+
+.about-name p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-family: Bongkar, sans-serif;
+}
+
+.about-name .port-name {
+  margin-top: -100px;
+  color: skyblue;
+  text-shadow: 1px 1px 5px blue, 1px 1px 5px aquamarine;
+  font-weight: bolder;
+  font-family: Bongkar, sans-serif;
+}
+/* 
+.about-name em {
+  font-size: 4rem;
+  font-family: AmazinglyBeauytiful, serif;
+  font-weight: bolder;
+  color: #ff4d5a;
+  display: inline-block;
+  margin-top: -22px;
+  letter-spacing: 0.5rem;
+} */
+
+.about-description {
+  padding-top: 100px;
+}
+
+.about-description h1 {
+  font-family: Bongkar, sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: #de734b;
+}
+
+.image-about {
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+/* project section */
+.project {
+  background-color: #0099ff;
+}
+
+div.remove-margin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.project-image img {
+  border-radius: 30%;
+  filter: grayscale(100%);
+}
+
+.project-head {
+  font-family: AmazinglyBeauytiful, serif;
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.project-parag {
+  font-family: Bongkar, sans-serif;
+}
+
+/* about */
+.about .text-center h1 {
+  font-family: AmazinglyBeauytiful, serif;
+  font-weight: bolder;
+}
+
+/* .about p.about-parag {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+} */
+
+.about-border {
+  background-color: gray;
+  border-radius: 35%;
+}
+
+.about-desc {
+  padding-top: 180px;
+  font-family: Bongkar, sans-serif;
+}
+
+/* contact */
+.contact {
+  background-color: #0099ff;
+  padding-bottom: 1rem;
+}
+
+.contact h1 {
+  font-family: AmazinglyBeauytiful, serif;
+  font-weight: bolder;
+}
+
+.img-contact img {
+  padding-top: 3.5rem;
+  filter: grayscale(100%);
+}
+
+/* footer */
+.white-section {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.white-section .logo p {
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+/* about.html */
+.who {
+  margin-top: 100px;
+}
+
+/* media query */
+@media screen and (max-width: 1400px) {
+  .dropdown-menu-align ul {
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .main-about {
+    margin-top: 50px;
+  }
+
+  .about-name h1,
+  .about-name p {
+    text-align: center;
+  }
+
+  /* .about-name em {
+    margin-left: 10%;
+  } */
+
+  .about-name h1 {
+    font-size: 32pt;
+  }
+
+  .project-image {
+    position: relative;
+    top: 0;
+    left: 100px;
+  }
+
+  .sm-center-project {
+    text-align: center;
+  }
+
+  .about-description img {
+    width: 300px;
+  }
+
+  .about p.about-parag {
+    text-align: center;
+  }
+
+  .about-desc {
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .img-contact img {
+    padding-top: 0;
+    width: 150px;
+    height: 150px;
+    margin-left: 31%;
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .project-image {
+    position: relative;
+    top: 0;
+    left: 40px;
+  }
+  .about-desc {
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  /* 
+  .about-name em {
+    margin-left: 10%;
+  } */
+}
