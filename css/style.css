@@ -222,6 +222,9 @@ div.remove-margin {
     text-align: center;
     padding-bottom: 0.5rem;
   }
+  .quote{
+    text-align:center;
+  }
   /* 
   .about-name em {
     margin-left: 10%;
